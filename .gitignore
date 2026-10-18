@@ -1,3 +1,9 @@
+# Project data (PDFs are not redistributed; JSON and database are re-created by the scripts)
+data/
+
+# macOS
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
