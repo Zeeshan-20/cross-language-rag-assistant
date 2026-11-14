@@ -10,7 +10,8 @@ PAGE_RANGES = {}
 
 # Tables that extraction cannot read correctly: written by hand from the PDF.
 MANUAL_TABLES = {
-    ("MaACS_SO_250318_de.pdf", 7): """Tabelle 1 (manuell aufbereitet): Regelstudienplan Master Applied Computer Science
+    ("MaACS_SO_250318_de.pdf", 7): """Tabelle 1 (manuell aufbereitet): Regelstudienplan Master Applied Computer Science.
+     In welchem Semester werden welche Module mit wie vielen Kreditpunkten (CP, Credit Points) studiert?
 Seminar: 5 CP im 3. Semester.
 Projekt: 5 CP im 3. Semester.
 Wahlpflichtbereich: 30 CP im 1. Semester, 30 CP im 2. Semester, 20 CP im 3. Semester.
@@ -48,15 +49,21 @@ def extract_pdf(path):
         last = last or len(doc)
         for number in range(first, last + 1):
             text = clean(doc[number - 1].get_text())
-            printed = printed_page(text)  # before adding manual text (footer must be last line)
-            text += "\n" + MANUAL_TABLES.get((path.name, number), "")
-            text = text.strip()
+            printed = printed_page(text)
             if text:
                 pages.append({
                     "source": path.name,
                     "page": number,
                     "printed_page": printed,
                     "text": text,
+                })
+            manual = MANUAL_TABLES.get((path.name, number))
+            if manual:
+                pages.append({
+                    "source": path.name,
+                    "page": number,
+                    "printed_page": printed,
+                    "text": manual,
                 })
     return pages
 
