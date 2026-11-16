@@ -1,0 +1,185 @@
+[
+  {
+    "question": "In which semester is the master thesis and how many CP does it have?",
+    "expected_source": "MaACS_SO_250318_de.pdf",
+    "expected_page": 6,
+    "expected_answer": "4th semester, 27 CP"
+  },
+  {
+    "question": "How many credit points does the master program have in total?",
+    "expected_source": "MaACS_SO_250318_de.pdf",
+    "expected_page": 6,
+    "expected_answer": "120 CP"
+  },
+  {
+    "question": "How many CP is the master colloquium?",
+    "expected_source": "MaACS_SO_250318_de.pdf",
+    "expected_page": 6,
+    "expected_answer": "3 CP, 4th semester"
+  },
+  {
+    "question": "In which semester is the project and how many CP?",
+    "expected_source": "MaACS_SO_250318_de.pdf",
+    "expected_page": 6,
+    "expected_answer": "3rd semester, 5 CP"
+  },
+  {
+    "question": "In which semester is the seminar and how many CP?",
+    "expected_source": "MaACS_SO_250318_de.pdf",
+    "expected_page": 6,
+    "expected_answer": "3rd semester, 5 CP"
+  },
+  {
+    "question": "How many mandatory CP are there in the 3rd semester?",
+    "expected_source": "MaACS_SO_250318_de.pdf",
+    "expected_page": 6,
+    "expected_answer": "10 CP"
+  },
+  {
+    "question": "How many hours of workload does the Seminar module have and how are they split?",
+    "expected_source": "MaACS_MD_250318_de.pdf",
+    "expected_page": 2,
+    "expected_answer": "150 h: 30 h presence, 100 h self-study, 20 h exam and exam preparation"
+  },
+  {
+    "question": "How is the Seminar module assessed?",
+    "expected_source": "MaACS_MD_250318_de.pdf",
+    "expected_page": 2,
+    "expected_answer": "Alternative examination (Alternative Prüfungsleistung); the lecturer announces the details at the start"
+  },
+  {
+    "question": "When can the master thesis topic be issued?",
+    "expected_source": "MaACS_MD_250318_de.pdf",
+    "expected_page": 4,
+    "expected_answer": "When all exams are passed except at most 10 credit points"
+  },
+  {
+    "question": "How many hours of workload does the master thesis module have?",
+    "expected_source": "MaACS_MD_250318_de.pdf",
+    "expected_page": 4,
+    "expected_answer": "810 h (10 h contact time, 800 h self-study)"
+  },
+  {
+    "question": "What kind of exam is the master colloquium and how long is it?",
+    "expected_source": "MaACS_MD_250318_de.pdf",
+    "expected_page": 6,
+    "expected_answer": "Oral exam: 30 minute presentation"
+  },
+  {
+    "question": "What programming knowledge is required for the Web Applications module?",
+    "expected_source": "MaACS_MD_250318_de.pdf",
+    "expected_page": 25,
+    "expected_answer": "Knowledge of Java"
+  },
+  {
+    "question": "What kind of exam is Web Applications and in which semester is it?",
+    "expected_source": "MaACS_MD_250318_de.pdf",
+    "expected_page": 25,
+    "expected_answer": "Computer-based written exam, 120 minutes; 3rd semester"
+  },
+  {
+    "question": "How long is the exam for IT Sicherheit?",
+    "expected_source": "MaACS_MD_250318_de.pdf",
+    "expected_page": 13,
+    "expected_answer": "Written exam, 90 minutes"
+  },
+  {
+    "question": "What kind of exam is Knowledge Discovery in Databases?",
+    "expected_source": "MaACS_MD_250318_de.pdf",
+    "expected_page": 32,
+    "expected_answer": "Computer-based written exam, 90 minutes"
+  },
+  {
+    "question": "Which module requires Android knowledge?",
+    "expected_source": "MaACS_MD_250318_de.pdf",
+    "expected_page": 17,
+    "expected_answer": "Mobile Systems"
+  },
+  {
+    "question": "How many times can a failed exam be repeated?",
+    "expected_source": "Verkuendungsblatt_Nr._1_2025.pdf",
+    "expected_page": 7,
+    "expected_answer": "At most twice"
+  },
+  {
+    "question": "How long do I have to write the master thesis?",
+    "expected_source": "Verkuendungsblatt_Nr._1_2025.pdf",
+    "expected_page": 10,
+    "expected_answer": "24 weeks"
+  },
+  {
+    "question": "Can I return the master thesis topic?",
+    "expected_source": "Verkuendungsblatt_Nr._1_2025.pdf",
+    "expected_page": 10,
+    "expected_answer": "Once, within two weeks after it was issued, with a reason"
+  },
+  {
+    "question": "What happens if someone cheats in an exam?",
+    "expected_source": "Verkuendungsblatt_Nr._1_2025.pdf",
+    "expected_page": 7,
+    "expected_answer": "The exam is graded 'nicht ausreichend' (5.0)"
+  },
+  {
+    "question": "What do I have to do if I am ill on the day of an exam?",
+    "expected_source": "Verkuendungsblatt_Nr._1_2025.pdf",
+    "expected_page": 7,
+    "expected_answer": "Report the reason to the examination board immediately in writing; a doctor's certificate may be required"
+  },
+  {
+    "question": "What grade does an average of 1.6 to 2.5 give for the overall grade?",
+    "expected_source": "Verkuendungsblatt_Nr._1_2025.pdf",
+    "expected_page": 6,
+    "expected_answer": "gut (good)"
+  },
+  {
+    "question": "When does the exam registration period end?",
+    "expected_source": "Verkuendungsblatt_Nr._1_2025.pdf",
+    "expected_page": 4,
+    "expected_answer": "2 weeks before the start of the exam period (it starts 4 weeks before)"
+  },
+  {
+    "question": "For how long can I ask to inspect my exam papers after the exam procedure is finished?",
+    "expected_source": "Verkuendungsblatt_Nr._1_2025.pdf",
+    "expected_page": 12,
+    "expected_answer": "Within one year"
+  },
+  {
+    "question": "What must students do to re-register for the next semester?",
+    "expected_source": "Immatrikulationsordnung_HSM_vom_23.10.2019.pdf",
+    "expected_page": 98,
+    "expected_answer": "Re-register at the university within the set deadline"
+  },
+  {
+    "question": "When is a student exmatriculated after finishing the degree?",
+    "expected_source": "Immatrikulationsordnung_HSM_vom_23.10.2019.pdf",
+    "expected_page": 98,
+    "expected_answer": "At the end of the semester in which the final certificate was handed out"
+  },
+  {
+    "question": "Can students from another university attend courses here as guest students?",
+    "expected_source": "Immatrikulationsordnung_HSM_vom_23.10.2019.pdf",
+    "expected_page": 99,
+    "expected_answer": "Yes, as second-listeners (Zweithörer) on application"
+  },
+  {
+    "question": "What is the cafeteria menu today?",
+    "expected_source": null,
+    "expected_page": null,
+    "expected_answer": "I could not find this in the documents."
+  },
+  {
+    "question": "What is the tuition fee for a Bachelor program in the USA?",
+    "expected_source": null,
+    "expected_page": null,
+    "expected_answer": "I could not find this in the documents."
+  },
+  {
+    "question": "How high is the semester fee?",
+    "expected_source": null,
+    "expected_page": null,
+    "expected_answer": "I could not find this in the documents (fees are mentioned, but no amount is given)."
+  },
+  {"question": "In which semester is the seminar?",
+ "expected_source": "MaACS_SO_250318_de.pdf", "expected_page": 6, "expected_answer": "3rd semester",
+ "also_ok": [["MaACS_MD_250318_de.pdf", 2]]}
+]
