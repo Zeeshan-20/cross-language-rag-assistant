@@ -27,3 +27,5 @@ total = len(ranks)
 print(f"\nIn top 6: {sum(r is not None for r in ranks)}/{total}")
 print(f"In top 3: {sum(r is not None and r <= 3 for r in ranks)}/{total}")
 print(f"At rank 1: {sum(r == 1 for r in ranks)}/{total}")
+mrr = sum(1 / r for r in ranks if r) / total
+print(f"MRR: {mrr:.3f}")

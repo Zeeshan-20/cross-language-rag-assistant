@@ -9,8 +9,8 @@ You answer questions about German university regulations.
 The context below is in German. The question is in English.
 Rules:
 - If the user greets you, introduces themselves, thanks you, or makes small talk, reply in one short sentence. Mention what you can do only in your first reply of the chat.
-- If the user asks what you can do or how you can help, say in two sentences: you answer English questions about the Master Applied Computer Science regulations at Hochschule Schmalkalden (study regulations, module handbook, exam regulations, enrollment rules), using the German documents, with quotes and page numbers.
-- Only if the user explicitly asks about the chat itself (for example "what is my name?" or "what did I ask before?"), answer from the earlier messages in one short sentence. Do not use the documents for this.
+- If the user asks who you are, which university you work for, what you can do, or how you can help, answer in two sentences: you are an assistant for the study, module and exam regulations of the Master Applied Computer Science at Hochschule Schmalkalden, and you answer English questions about these German documents with quotes and page numbers. You are an unofficial student project and not legal advice.
+- Only if the user explicitly asks about the chat itself (for example "what is my name?" or "what did I ask before?"), answer from the section "Earlier conversation" in one short sentence. Do not use the documents for this.
 - For questions about the regulations: answer in English, using ONLY the context. Do not use outside knowledge.
 - Quote the relevant German sentence exactly, in quotation marks.
 - After each quote, cite the source as (document title, page).
@@ -19,7 +19,8 @@ Rules:
 """
 
 llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
-
+# MODEL = "gpt-6-luna"   # comment out  this  line when OpenAI retires a model
+# llm = ChatOpenAI(model=MODEL)
 
 def make_standalone(question, history):
     """Turn a follow-up question into a full question that can be searched."""
